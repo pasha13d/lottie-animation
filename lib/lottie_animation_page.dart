@@ -33,7 +33,7 @@ class _LottieAnimationPageState extends State<LottieAnimationPage> {
             SizedBox(height: 20,),
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 20),
-              child: Text(desc[index], textAlign: TextAlign.center, style: TextStyle(fontSize: 26, fontWeight: FontWeight.bold,),),
+              child: Text(desc, textAlign: TextAlign.center, style: TextStyle(fontSize: 26, fontWeight: FontWeight.bold,),),
             ),
           ],
         );
